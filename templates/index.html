@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Remove Background</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="/">Home</a> | <a href="/how-it-works">How It Works</a> |
+        <a href="/about">About</a>
+      </nav>
+
+      <h1>Remove Image Background</h1>
+      <form action="/remove-bg" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required />
+        <button type="submit">Remove Background</button>
+      </form>
+      <footer>
+        Made with ❤️ using Python + Flask <br />
+        Develop from Chy Devit
+      </footer>
+    </div>
+  </body>
+</html>
